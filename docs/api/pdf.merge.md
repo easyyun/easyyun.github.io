@@ -32,7 +32,7 @@
 ```shell
 curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
 -d 'method=pdf.merge' \
--d 'token=xxx' \
+-d 'token=395a25d6fa758bfb6c0d3da007a8b189' \
 -d 'input={"file_url":["http://www.easyyun.com/static/example/files/one_page.pdf","http://www.easyyun.com/static/example/files/two_pages.pdf"]}'
 ```
 

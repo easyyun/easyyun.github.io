@@ -33,7 +33,7 @@ PDF、图片等文件地址统一为互联网可访问url。
 ```shell
 curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
 -F 'method=upload' \
--F 'token=xxx' \
+-F 'token=395a25d6fa758bfb6c0d3da007a8b189' \
 -F 'file=@/Users/easyyun/files/one_page.pdf'
 ```
 

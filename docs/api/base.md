@@ -15,7 +15,7 @@
 
 ### app_key
 
-app key代表应用的key，测试环境和正式环境的app key不一样，权限也不一样，测试环境会请求频率、文件大小等限制。申请app key请加微信XXX
+app key代表应用的key，测试环境和正式环境的app key不一样，权限也不一样，测试环境会请求频率、文件大小等限制。申请app key请[邮件](/guide/faq.html#如何申请app-key)
 
 
 ### token
@@ -26,7 +26,7 @@ app key代表应用的key，测试环境和正式环境的app key不一样，权
 ```shell
 curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
 -d 'method=config.token' \
--d 'app_key=jijianyun001'
+-d 'app_key=xxx'
 ```
 
 
@@ -45,7 +45,7 @@ curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
 ```shell
 curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
 -d 'method=config.storage' \
--d 'token=xxx' \
+-d 'token=395a25d6fa758bfb6c0d3da007a8b189' \
 -d 'storage_type=aliyun.oss' \
 -d 'storage_config={"bucket":"xxx","host":"http://xxx.xxx.com","endpoint":"xxxx.aliyuncs.com","access_key_id":"xxx","access_key_secret":"xxx"}'
 ```
@@ -57,7 +57,7 @@ curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
 ```shell
 curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
 -d 'method=config.notify_url' \
--d 'token=xxx' \
+-d 'token=395a25d6fa758bfb6c0d3da007a8b189' \
 -d 'notify_url=xxx' \
 -d 'notify_token=xxx'
 ```

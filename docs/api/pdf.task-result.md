@@ -32,7 +32,7 @@
 ```shell
 curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
 -d 'method=pdf.taskResult' \
--d 'token=xxx' \
+-d 'token=395a25d6fa758bfb6c0d3da007a8b189' \
 -d 'task_id=xxx'
 ```
 
