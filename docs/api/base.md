@@ -45,7 +45,7 @@ curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
 ```shell
 curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
 -d 'method=config.storage' \
--d 'token=395a25d6fa758bfb6c0d3da007a8b189' \
+-d 'token=xxx' \
 -d 'storage_type=aliyun.oss' \
 -d 'storage_config={"bucket":"xxx","host":"http://xxx.xxx.com","endpoint":"xxxx.aliyuncs.com","access_key_id":"xxx","access_key_secret":"xxx"}'
 ```
@@ -57,7 +57,7 @@ curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
 ```shell
 curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
 -d 'method=config.notify_url' \
--d 'token=395a25d6fa758bfb6c0d3da007a8b189' \
+-d 'token=xxx' \
 -d 'notify_url=xxx' \
 -d 'notify_token=xxx'
 ```
