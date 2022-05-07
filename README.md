@@ -43,7 +43,7 @@ curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
 
 更多：[API参考](https://easyyun.github.io/api/base.html)
 
-[文档官网](https://easyyun.github.io/)
+文档官网：[https://easyyun.github.io](https://easyyun.github.io)
 
 ### License
 
