@@ -1,0 +1,17 @@
+{
+  "name": "接口文档 - EasyYun",
+  "version": "1.0.0",
+  "description": "PDF云转换API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.39",
+    "vuepress-plugin-global-variables": "^0.2.0"
+  }
+}

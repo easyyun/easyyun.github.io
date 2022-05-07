@@ -1,0 +1,14 @@
+.DS_Store
+node_modules
+.temp
+.cache
+.vscode
+*.sh
+
+# VuePress files
+docs/.vuepress/.temp/
+docs/.vuepress/.cache/
+docs/.vuepress/dist/
+
+# Dist files
+dist/
