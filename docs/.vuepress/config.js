@@ -44,6 +44,7 @@ module.exports = {
             '/api/pdf.encrypt.md',
             '/api/pdf.image-to-pdf.md',
             '/api/pdf.info.md',
+            '/api/pdf.offcie-to-pdf.md',
             '/api/pdf.task-result.md',
             '/api/code.md'
         ],
@@ -82,6 +83,7 @@ module.exports = {
             '/api/pdf.encrypt.md',
             '/api/pdf.image-to-pdf.md',
             '/api/pdf.info.md',
+            '/api/pdf.offcie-to-pdf.md',
             '/api/pdf.task-result.md',
             '/api/code.md'
           ],
