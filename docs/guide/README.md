@@ -19,6 +19,9 @@
 - [PDF加密](/api/pdf.encrypt.html)
 - [图片转PDF](/api/pdf.image-to-pdf.html)
 - [PDF文件信息查看](/api/pdf.info.html)
+- [Office转PDF](/api/pdf.offcie-to-pdf.html)
+- [PDF转Word](/api/pdf.pdf-to-doc.html)
+- [PDF转PPT](/api/pdf.pdf-to-pptx.html)
 
 
 ### 体验小程序
