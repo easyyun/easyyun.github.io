@@ -1,0 +1,1 @@
+const e={key:"v-065b9de1",path:"/api/pdf.info.html",title:"PDF\u67E5\u770B\u4FE1\u606F",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u5F85\u8865\u5145",slug:"\u5F85\u8865\u5145",children:[]}],filePathRelative:"api/pdf.info.md"};export{e as data};

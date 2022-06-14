@@ -1,0 +1,1 @@
+const t={key:"v-254ac4de",path:"/api/pdf.task-result.html",title:"\u83B7\u53D6\u5F02\u6B65\u7ED3\u679C",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],filePathRelative:"api/pdf.task-result.md"};export{t as data};
