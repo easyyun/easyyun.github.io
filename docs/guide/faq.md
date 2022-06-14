@@ -28,4 +28,10 @@
 
 ## 联系
 
-如果有功能需求，或者其他问题，请发邮件 kf@shudengyun.com。 
+**邮件**
+
+如果有功能需求，或者其他问题，请发邮件 kf@shudengyun.com
+
+**公众号留言**
+
+![PDF云转换](https://www.easyyun.com/static/xcx/gongzhonghao.jpg)

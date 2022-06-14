@@ -27,3 +27,14 @@
 ### 体验小程序
 
 ![PDF云转换小程序](https://www.easyyun.com/static/xcx/xcx_m.jpg)
+
+
+### 客户端下载
+
+![Demo](https://www.easyyun.com/static/client/mac_demo.jpg)
+
+
+
+**Mac版本:** [https://www.easyyun.com/r.html?r=mac](https://www.easyyun.com/r.html?r=mac)
+
+**Windows版本:** [https://www.easyyun.com/r.html?r=windows](https://www.easyyun.com/r.html?r=windows)

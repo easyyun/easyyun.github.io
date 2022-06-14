@@ -2,7 +2,7 @@ module.exports = {
   // 站点配置
   lang: 'zh-CN',
   title: 'EasyYun',
-  description: '提供PDF云转换API',
+  description: 'EasyYun提供稳定、极速的PDF转换API，使用http接口协议，Java、PHP、Golang、Python、Ruby、Node、C#等语言都可以完成PDF、图片、Word、Excel、PPT文件转换等编辑功能。',
 
   head: [
       // 设置 favor.ico，.vuepress/public 下
