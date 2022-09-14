@@ -1,7 +1,7 @@
 {
   "name": "接口文档 - EasyYun",
   "version": "1.0.0",
-  "description": "PDF云转换API",
+  "description": "PDF云转换API，提供PDF云转换客户端",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
