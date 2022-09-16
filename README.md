@@ -20,6 +20,7 @@ EasyYun，在线PDF转换API,不限定开发语言，Java、PHP、Golang、Pytho
 - [Office转PDF](https://easyyun.github.io/api/pdf.offcie-to-pdf.html)
 - [PDF转Word](https://easyyun.github.io/api/pdf.pdf-to-doc.html)
 - [PDF转PPT](https://easyyun.github.io/api/pdf.pdf-to-pptx.html)
+- [PDF转PPT](https://easyyun.github.io/api/pdf.pdf-2a5-to-a4.html)
 
 
 ### **快速开始**

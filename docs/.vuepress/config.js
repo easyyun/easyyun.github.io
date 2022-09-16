@@ -47,6 +47,9 @@ module.exports = {
             '/api/pdf.offcie-to-pdf.md',
             '/api/pdf.pdf-to-doc.md',
             '/api/pdf.pdf-to-pptx.md',
+
+            '/api/pdf.pdf-2a5-to-a4.md',
+
             '/api/pdf.task-result.md',
             '/api/code.md'
         ],
@@ -88,7 +91,10 @@ module.exports = {
             '/api/pdf.offcie-to-pdf.md',
             '/api/pdf.pdf-to-doc.md',
             '/api/pdf.pdf-to-pptx.md',
-            '/api/pdf.task-result.md',
+
+            '/api/pdf.pdf-2a5-to-a4.md',
+
+            '/api/pdf.task-result.md',            
             '/api/code.md'
           ],
         },
