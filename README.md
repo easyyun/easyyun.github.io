@@ -12,7 +12,7 @@ EasyYun，在线PDF转换API,不限定开发语言，Java、PHP、Golang、Pytho
 - [PDF合并](https://easyyun.github.io/api/pdf.merge.html)
 - [PDF旋转](https://easyyun.github.io/api/pdf.rotate.html)
 - [PDF拆分为单页或多页，格式为PDF](https://easyyun.github.io/api/pdf.split-to-pdf.html)
-- [PDF拆分为单页图片](https://easyyun.github.io/api/pdf.split-to-image.html)
+- [PDF转单个图片或长图](https://easyyun.github.io/api/pdf.split-to-image.html)
 - [PDF提取图片](https://easyyun.github.io/api/pdf.pdf-extract-image.html)
 - [PDF压缩](https://easyyun.github.io/api/pdf.compress.html)
 - [PDF加密](https://easyyun.github.io/api/pdf.encrypt.html)
