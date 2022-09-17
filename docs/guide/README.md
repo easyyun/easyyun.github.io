@@ -23,6 +23,7 @@
 - [PDF转Word](/api/pdf.pdf-to-doc.html)
 - [PDF转PPT](/api/pdf.pdf-to-pptx.html)
 - [发票合并打印](/api/pdf.pdf-2a5-to-a4.html)
+- [九宫格PDF](/api/pdf.pdf-pdf-to-grid.html)
 
 
 ### 体验小程序
