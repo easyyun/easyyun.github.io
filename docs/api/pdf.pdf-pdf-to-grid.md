@@ -23,7 +23,7 @@
 **options字段说明**
 
 - grid 必须，每页排列数量，可选值：2、3、4、8、9、12、16，（2=2x1, 3=3x1, 4=2x2, 8=4x2, 9=3x3, 12=4x3, 16=4x4），默认9
-- direction 非必须，可选值：vertical、horizontal。（vertical纵向,A4纸张， horizontal 横向，Ledger纸张），默认vertical纵向
+- direction 非必须，内容排列顺序（纵向、横向），因纸张问题，内容排版需根据情况选择。可选值：vertical、horizontal。（vertical纵向,A4纸张， horizontal 横向，Ledger纸张），默认vertical纵向
 
 
 

@@ -17,7 +17,7 @@
 | method | String | 是 | pdf.pdf2A5ToA4，固定值 |
 | token | String | 是 | 可自行创建或更新，参考[基础 > token](/api/base.html#token)|
 | async | String | 否 | 任务方式，默认0，代表同步；1代表异步，异步需要设置回调地址，或者[主动查询结果](/api/pdf.task-result.html) |
-| input | String | 是 | {"file_url":["http://www.easyyun.com/static/example/files/one_page.pdf","http://www.easyyun.com/static/example/files/two_pages.pdf"]} ，json格式，只能传2个PDF文件|
+| input | String | 是 | {"file_url":["http://www.easyyun.com/static/example/files/a5_1.pdf","http://www.easyyun.com/static/example/files/a5_2.pdf"]} ，json格式，只能传2个PDF文件|
 
 
 **响应参数，类型为JSON**
