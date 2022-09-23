@@ -4,13 +4,16 @@
 
 ## 如何申请app key 
 
-发送邮件 kf@shudengyun.com ，格式如下
+**公众号申请** 
+
+![PDF云转换](https://www.easyyun.com/static/xcx/gongzhonghao.jpg)
 
 ```
-申请app key 
-联系电话：
-单位名称：
-用途：
+格式如下
+标题：申请API
+单位名称（或个人）：
+姓名：
+电话：
 ```
 
 
@@ -26,11 +29,8 @@
 
 
 
-## 联系
+## 联系建议
 
-**邮件**
-
-如果有功能需求，或者其他问题，请发邮件 kf@shudengyun.com
 
 **公众号留言**
 
