@@ -18,6 +18,7 @@ EasyYun，在线PDF转换API,不限定开发语言，Java、PHP、Golang、Pytho
 - [PDF修剪](https://easyyun.github.io/api/pdf.trim.html)
 - [PDF加密](https://easyyun.github.io/api/pdf.encrypt.html)
 - [PDF旋转](https://easyyun.github.io/api/pdf.rotate.html)
+- [PDF修复](https://easyyun.github.io/api/pdf.pdf-repair.html)
 - [Office转PDF](https://easyyun.github.io/api/pdf.offcie-to-pdf.html)
 - [PDF转Word](https://easyyun.github.io/api/pdf.pdf-to-doc.html)
 - [PDF转PPT](https://easyyun.github.io/api/pdf.pdf-to-pptx.html)

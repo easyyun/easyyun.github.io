@@ -44,6 +44,7 @@ module.exports = {
             '/api/pdf.trim.md', 
             '/api/pdf.encrypt.md',
             '/api/pdf.rotate.md', 
+            '/api/pdf.pdf-repair.md',
             '/api/pdf.info.md',
 
             '/api/pdf.offcie-to-pdf.md',
@@ -93,6 +94,7 @@ module.exports = {
             '/api/pdf.trim.md', 
             '/api/pdf.encrypt.md',
             '/api/pdf.rotate.md', 
+            '/api/pdf.pdf-repair.md',
             '/api/pdf.info.md',
 
             '/api/pdf.offcie-to-pdf.md',
