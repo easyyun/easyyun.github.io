@@ -49,7 +49,10 @@ module.exports = {
             '/api/pdf.pdf-to-pptx.md',
 
             '/api/pdf.pdf-2a5-to-a4.md',
-            '/api/pdf.pdf-pdf-to-grid.md',
+            '/api/pdf.pdf-to-grid.md',
+
+
+            '/api/img.img-rotate.md',
 
             '/api/pdf.task-result.md',
             '/api/code.md'
@@ -94,7 +97,8 @@ module.exports = {
             '/api/pdf.pdf-to-pptx.md',
 
             '/api/pdf.pdf-2a5-to-a4.md',
-            '/api/pdf.pdf-pdf-to-grid.md',
+            '/api/pdf.pdf-to-grid.md',
+            '/api/img.img-rotate.md',
 
             '/api/pdf.task-result.md',            
             '/api/code.md'

@@ -21,7 +21,8 @@ EasyYun，在线PDF转换API,不限定开发语言，Java、PHP、Golang、Pytho
 - [PDF转Word](https://easyyun.github.io/api/pdf.pdf-to-doc.html)
 - [PDF转PPT](https://easyyun.github.io/api/pdf.pdf-to-pptx.html)
 - [电子发票合并打印](https://easyyun.github.io/api/pdf.pdf-2a5-to-a4.html)
-- [九宫格PDF](https://easyyun.github.io/api/pdf.pdf-pdf-to-grid.html)
+- [九宫格PDF](https://easyyun.github.io/api/pdf.pdf-to-grid.html)
+- [图片旋转](https://easyyun.github.io/api/img.img-rotate.html)
 
 ### **快速开始**
 
