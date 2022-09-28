@@ -8,15 +8,16 @@ EasyYun，在线PDF转换API,不限定开发语言，Java、PHP、Golang、Pytho
 
 ### **主要功能**
 
-- [PDF修剪PDF](https://easyyun.github.io/api/pdf.trim.html)
-- [PDF合并](https://easyyun.github.io/api/pdf.merge.html)
-- [PDF旋转](https://easyyun.github.io/api/pdf.rotate.html)
-- [PDF拆分为单页或多页，格式为PDF](https://easyyun.github.io/api/pdf.split-to-pdf.html)
-- [PDF转单个图片或长图](https://easyyun.github.io/api/pdf.split-to-image.html)
-- [PDF提取图片](https://easyyun.github.io/api/pdf.pdf-extract-image.html)
-- [PDF压缩](https://easyyun.github.io/api/pdf.compress.html)
-- [PDF加密](https://easyyun.github.io/api/pdf.encrypt.html)
+
+- [PDF转图片](https://easyyun.github.io/api/pdf.split-to-image.html)
 - [图片转PDF](https://easyyun.github.io/api/pdf.image-to-pdf.html)
+- [PDF提取图片](https://easyyun.github.io/api/pdf.pdf-extract-image.html)
+- [PDF合并](https://easyyun.github.io/api/pdf.merge.html)
+- [PDF压缩](https://easyyun.github.io/api/pdf.compress.html)
+- [PDF拆分为单页或多页，格式为PDF](https://easyyun.github.io/api/pdf.split-to-pdf.html)
+- [PDF修剪](https://easyyun.github.io/api/pdf.trim.html)
+- [PDF加密](https://easyyun.github.io/api/pdf.encrypt.html)
+- [PDF旋转](https://easyyun.github.io/api/pdf.rotate.html)
 - [Office转PDF](https://easyyun.github.io/api/pdf.offcie-to-pdf.html)
 - [PDF转Word](https://easyyun.github.io/api/pdf.pdf-to-doc.html)
 - [PDF转PPT](https://easyyun.github.io/api/pdf.pdf-to-pptx.html)
