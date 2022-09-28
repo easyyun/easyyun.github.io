@@ -9,21 +9,23 @@
 
 ### **主要功能**
 
-- [PDF修剪PDF](/api/pdf.trim.html)
-- [PDF合并](/api/pdf.merge.html)
-- [PDF旋转](/api/pdf.rotate.html)
-- [PDF拆分为单页或多页，格式为PDF](/api/pdf.split-to-pdf.html)
-- [PDF拆分为单页图片](/api/pdf.split-to-image.html)
-- [PDF提取图片](/api/pdf.pdf-extract-image.html)
-- [PDF压缩](/api/pdf.compress.html)
-- [PDF加密](/api/pdf.encrypt.html)
+
+- [PDF转图片](/api/pdf.split-to-image.html)
 - [图片转PDF](/api/pdf.image-to-pdf.html)
-- [PDF文件信息查看](/api/pdf.info.html)
+- [PDF提取图片](/api/pdf.pdf-extract-image.html)
+- [PDF合并](/api/pdf.merge.html)
+- [PDF压缩](/api/pdf.compress.html)
+- [PDF拆分为单页或多页，格式为PDF](/api/pdf.split-to-pdf.html)
+- [PDF修剪](/api/pdf.trim.html)
+- [PDF加密](/api/pdf.encrypt.html)
+- [PDF旋转](/api/pdf.rotate.html)
+- [PDF修复](/api/pdf.pdf-repair.html)
 - [Office转PDF](/api/pdf.offcie-to-pdf.html)
 - [PDF转Word](/api/pdf.pdf-to-doc.html)
 - [PDF转PPT](/api/pdf.pdf-to-pptx.html)
-- [发票合并打印](/api/pdf.pdf-2a5-to-a4.html)
-- [九宫格PDF](/api/pdf.pdf-pdf-to-grid.html)
+- [电子发票合并打印](/api/pdf.pdf-2a5-to-a4.html)
+- [九宫格PDF](/api/pdf.pdf-to-grid.html)
+- [图片旋转](/api/img.img-rotate.html)
 
 
 ### 体验小程序
