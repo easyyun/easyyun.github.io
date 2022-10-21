@@ -1,10 +1,10 @@
 ## EasyYun
 
-**PDF云接口**
+**企业级 PDF API**
 
-EasyYun，在线PDF转换API,不限定开发语言，Java、PHP、Golang、Python、Ruby、Node、C#通通可以用。
+EasyYun，企业级 PDF API，提供各种在线转换接口,不限定开发语言，Java、PHP、Golang、Python、Ruby、Node、C#通通可以用。
 
-云端处理，告别安装各种软件，不占计算机资源，开发者新手、高手都可以完成。
+云端API处理，告别安装各种软件，不占计算机资源，开发者新手、高手都可以完成。
 
 ### **主要功能**
 
@@ -14,7 +14,7 @@ EasyYun，在线PDF转换API,不限定开发语言，Java、PHP、Golang、Pytho
 - [PDF提取图片](https://easyyun.github.io/api/pdf.pdf-extract-image.html)
 - [PDF合并](https://easyyun.github.io/api/pdf.merge.html)
 - [PDF压缩](https://easyyun.github.io/api/pdf.compress.html)
-- [PDF拆分为单页或多页，格式为PDF](https://easyyun.github.io/api/pdf.split-to-pdf.html)
+- [PDF拆分](https://easyyun.github.io/api/pdf.split-to-pdf.html)
 - [PDF修剪](https://easyyun.github.io/api/pdf.trim.html)
 - [PDF加密](https://easyyun.github.io/api/pdf.encrypt.html)
 - [PDF旋转](https://easyyun.github.io/api/pdf.rotate.html)
@@ -51,6 +51,10 @@ curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
 更多：[API参考](https://easyyun.github.io/api/base.html)
 
 文档官网：[https://easyyun.github.io](https://easyyun.github.io)
+
+**联系**
+
+![PDF云转换](https://www.easyyun.com/static/xcx/gongzhonghao.jpg)
 
 ### License
 

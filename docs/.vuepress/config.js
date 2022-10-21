@@ -2,7 +2,7 @@ module.exports = {
   // 站点配置
   lang: 'zh-CN',
   title: 'EasyYun',
-  description: 'EasyYun提供稳定、极速的PDF转换API，使用http接口协议，Java、PHP、Golang、Python、Ruby、Node、C#等语言都可以完成PDF、图片、Word、Excel、PPT文件转换等编辑功能。',
+  description: 'EasyYun，企业级 PDF API，提供各种在线转换接口,不限定开发语言，Java、PHP、Golang、Python、Ruby、Node、C#通通可以用。',
 
   head: [
       // 设置 favor.ico，.vuepress/public 下
@@ -33,6 +33,8 @@ module.exports = {
         children: [
             '/api/base.md',
             '/api/upload.md',
+            '/api/pdf.task-result.md',
+            '/api/code.md',
 
             '/api/pdf.split-to-image.md',
             '/api/pdf.image-to-pdf.md',
@@ -54,10 +56,9 @@ module.exports = {
             '/api/pdf.pdf-2a5-to-a4.md',
             '/api/pdf.pdf-to-grid.md',
 
-            '/api/img.img-rotate.md',
+            '/api/img.img-rotate.md'
 
-            '/api/pdf.task-result.md',
-            '/api/code.md'
+
         ],
       },
       {
@@ -83,6 +84,8 @@ module.exports = {
           children: [
             '/api/base.md',
             '/api/upload.md',
+            '/api/pdf.task-result.md',
+            '/api/code.md',
 
             '/api/pdf.split-to-image.md',
             '/api/pdf.image-to-pdf.md',
@@ -104,10 +107,9 @@ module.exports = {
             '/api/pdf.pdf-2a5-to-a4.md',
             '/api/pdf.pdf-to-grid.md',
 
-            '/api/img.img-rotate.md',
+            '/api/img.img-rotate.md'
 
-            '/api/pdf.task-result.md',
-            '/api/code.md'
+
           ],
         },
       ],

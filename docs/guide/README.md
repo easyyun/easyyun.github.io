@@ -15,7 +15,7 @@
 - [PDF提取图片](/api/pdf.pdf-extract-image.html)
 - [PDF合并](/api/pdf.merge.html)
 - [PDF压缩](/api/pdf.compress.html)
-- [PDF拆分为单页或多页，格式为PDF](/api/pdf.split-to-pdf.html)
+- [PDF拆分](/api/pdf.split-to-pdf.html)
 - [PDF修剪](/api/pdf.trim.html)
 - [PDF加密](/api/pdf.encrypt.html)
 - [PDF旋转](/api/pdf.rotate.html)
