@@ -39,15 +39,17 @@ curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
 ### storage 存储
 
 **配置自己storage的好处**
-提供的url你无需下载，直接存储到你的服务器资源上。目前支持阿里云OSS。
+提供的文件url你无需下载再存储，可直接存储到你的服务器资源上，减少开发步骤。目前支持阿里云OSS、腾讯云。
 - `storage_type` 可选值阿里云：`aliyun.oss`、腾讯云：`tencent.cos`、
-- `storage_config`值实例为`{"bucket":"xxx","host":"http://xxx.xxx.com","endpoint":"xxxx.aliyuncs.com","access_key_id":"xxx","access_key_secret":"xxx"}`
+- `storage_config`值实例：阿里云OSS：`{"bucket":"xxx","host":"http://xxx.xxx.com","endpoint":"oss-cn-xxx.aliyuncs.com","access_key_id":"xxx","access_key_secret":"xxx"}`
+
+腾讯COS：`{"host": "http://xxx.xxx.com", "bucket": "xxx", "endpoint": "cos.xxx.myqcloud.com", "access_key_id": "xxx", "access_key_secret": "xxx"}`
 ```shell
 curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
 -d 'method=config.storage' \
 -d 'token=xxx' \
 -d 'storage_type=aliyun.oss' \
--d 'storage_config={"bucket":"xxx","host":"http://xxx.xxx.com","endpoint":"xxxx.aliyuncs.com","access_key_id":"xxx","access_key_secret":"xxx"}'
+-d 'storage_config={"bucket":"xxx","host":"http://xxx.xxx.com","endpoint":"oss-cn-xxx.aliyuncs.com","access_key_id":"xxx","access_key_secret":"xxx"}'
 ```
 
 
