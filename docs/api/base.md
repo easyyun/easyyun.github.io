@@ -15,12 +15,12 @@
 
 ### app_key
 
-app key代表应用的key，测试环境和正式环境的app key不一样，权限也不一样，测试环境会请求频率、文件大小等限制。申请app key请[邮件](/guide/faq.html#如何申请app-key)
+app key代表应用的key，测试环境和正式环境的app key不一样，权限也不一样，测试环境有请求频率、文件大小等限制。申请app key请[公众号留言](/guide/faq.html#如何申请app-key)
 
 
 ### token
 
-应用请求需要设置token，每个app key只有1个有效token，token默认有效期为24小时（86400秒）；请妥善保管token。实例中提供的app_key无法更新token，请使用自己的 app key
+应用请求需要设置token，每个app key只有1个有效token，token默认有效期为24小时（86400秒）；请妥善保管token。实例中提供的app_key无法更新token，请使用自己的 app key。建议应用合理设置token请求的频率。
 
 **设置token方式**
 ```shell
@@ -39,7 +39,10 @@ curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
 ### storage 存储
 
 **配置自己storage的好处**
-提供的文件url你无需下载再存储，可直接存储到你的服务器资源上，减少开发步骤。目前支持阿里云OSS、腾讯云。
+Easyyun本身只提供转换服务，不提供文件存储服务，文件下载地址有效期为7天。设置storage后，
+接口转换的文件file_url你无需另外写代码下载和存储，可直接存储到你的服务器资源上，减少开发步骤。此配置接口执行一次即可永久有效，再次执行会覆盖原先的值。
+
+目前支持阿里云OSS、腾讯云COS。
 - `storage_type` 可选值阿里云：`aliyun.oss`、腾讯云：`tencent.cos`、
 - `storage_config`值实例：阿里云OSS：`{"bucket":"xxx","host":"http://xxx.xxx.com","endpoint":"oss-cn-xxx.aliyuncs.com","access_key_id":"xxx","access_key_secret":"xxx"}`
 

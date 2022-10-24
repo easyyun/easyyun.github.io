@@ -43,8 +43,9 @@
 curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
 -d 'method=pdf.splitToImage' \
 -d 'token=395a25d6fa758bfb6c0d3da007a8b189' \
+-d 'async=0' \
 -d 'input=http://www.easyyun.com/static/example/files/four_pages.pdf' \
--d 'options={"quality": "middle", "page": "2,3"}'
+-d 'options={"quality": "middle", "page": "1-N"}'
 ```
 
 **响应示例**
@@ -53,7 +54,7 @@ curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
 	"request_id": "xxx",
 	"code": "200",
 	"data": {
-		"file_url": ["http://www.easyyun.com/static/example/out/splitImage_2.png","http://www.easyyun.com/static/example/out/extract/splitImage_3.png"]
+		"file_url": ["http://www.easyyun.com/static/example/out/splitImage_1.png","http://www.easyyun.com/static/example/out/splitImage_2.png","http://www.easyyun.com/static/example/out/splitImage_3.png","http://www.easyyun.com/static/example/out/extract/splitImage_4.png"]
 	},
 	"code_msg": "请求成功"
 }
