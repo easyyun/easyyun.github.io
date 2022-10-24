@@ -20,12 +20,13 @@ app key代表应用的key，测试环境和正式环境的app key不一样，权
 
 ### token
 
-应用请求需要设置token，每个app key只有1个有效token，token默认有效期为24小时（86400秒）；请妥善保管token。实例中提供的app_key无法更新token，请使用自己的 app key。建议应用合理设置token请求的频率。
+应用请求需要设置token，每个app key只有1个有效token，token_period默认有效期为24小时（86400秒），最长时间30天（2592000秒）；请妥善保管token。实例中提供的app_key无法更新token，请使用自己的 app key。建议应用合理设置token请求的频率。
 
 **设置token方式**
 ```shell
 curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
 -d 'method=config.token' \
+-d 'token_period=86400' \
 -d 'app_key=xxx'
 ```
 
