@@ -37,7 +37,7 @@ PDF文件加密。源文件必须无密码才支持设置密码。
 
 **请求示例**
 ```shell
-curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
+curl -X POST 'https://test-rest-api.easyyun.com/v1/router/rest' \
 -d 'method=pdf.encrypt' \
 -d 'token=395a25d6fa758bfb6c0d3da007a8b189' \
 -d 'input=http://www.easyyun.com/static/example/files/one_page.pdf' \

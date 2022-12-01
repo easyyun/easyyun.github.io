@@ -6,10 +6,10 @@
 ### request_url
 **请求地址**
 
-| 环境 | http | https |
+| 环境 |  https |
 | --- | --- | --- |
-| 测试 | http://test-rest-api.easyyun.com/v1/router/rest | https://test-rest-api.easyyun.com/v1/router/rest |
-| 正式 | http://rest-api.easyyun.com/v1/router/rest | https://rest-api.easyyun.com/v1/router/rest |
+| 测试 | https://test-rest-api.easyyun.com/v1/router/rest |
+| 正式 | https://rest-api.easyyun.com/v1/router/rest |
 
 
 
@@ -24,7 +24,7 @@ app key代表应用的key，测试环境和正式环境的app key不一样，权
 
 **设置token方式**
 ```shell
-curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
+curl -X POST 'https://test-rest-api.easyyun.com/v1/router/rest' \
 -d 'method=config.token' \
 -d 'token_period=86400' \
 -d 'app_key=xxx'
@@ -49,7 +49,7 @@ Easyyun本身只提供转换服务，不提供文件存储服务，文件下载�
 
 腾讯COS：`{"host": "http://xxx.xxx.com", "bucket": "xxx", "endpoint": "cos.xxx.myqcloud.com", "access_key_id": "xxx", "access_key_secret": "xxx"}`
 ```shell
-curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
+curl -X POST 'https://test-rest-api.easyyun.com/v1/router/rest' \
 -d 'method=config.storage' \
 -d 'token=xxx' \
 -d 'storage_type=aliyun.oss' \
@@ -61,7 +61,7 @@ curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
 
 当使用异步通知的时候设计的回调地址，比如你有大量的任务，不想等待任务结果，使用异步方式，程序会立即返回1个request_id。[主动查询异步结果](/api/pdf.task-result.html)
 ```shell
-curl -X POST 'http://test-rest-api.easyyun.com/v1/router/rest' \
+curl -X POST 'https://test-rest-api.easyyun.com/v1/router/rest' \
 -d 'method=config.notify_url' \
 -d 'token=xxx' \
 -d 'notify_url=xxx' \
