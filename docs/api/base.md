@@ -7,7 +7,7 @@
 **请求地址**
 
 | 环境 |  https |
-| --- | --- | --- |
+| --- | --- |
 | 测试 | https://test-rest-api.easyyun.com/v1/router/rest |
 | 正式 | https://rest-api.easyyun.com/v1/router/rest |
 
