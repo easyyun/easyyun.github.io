@@ -21,6 +21,16 @@ footer: Power by VuePress. Apache-2.0 License. Copyright © 2017 - 2022 EasyYun
 ---
 
 
+### 技术栈
+| <img src="https://www.easyyun.com/static/tech/mysql.svg">  |  <img src="https://www.easyyun.com/static/tech/ubuntu.svg">  |  <img src="https://www.easyyun.com/static/tech/kubernetes.svg"> |  <img src="https://www.easyyun.com/static/tech/istioio.svg"> |  <img src="https://www.easyyun.com/static/tech/redis.svg"> | 
+| --- | --- | --- | --- | --- | 
+| <img src="https://www.easyyun.com/static/tech/docker.svg"> |  <img src="https://www.easyyun.com/static/tech/golang.svg"> |  <img src="https://www.easyyun.com/static/tech/nginx.svg"> |  <img src="https://www.easyyun.com/static/tech/vuejs.svg"> |  <img src="https://www.easyyun.com/static/tech/electronjs.svg"> |  <img src="https://www.easyyun.com/static/tech/kubernetes.svg"> |
+
+
+
+
+
+
 使用前请查看 
 [隐私说明](https://www.easyyun.com/privacy/privacy.html) 
 [服务协议](https://www.easyyun.com/privacy/service.html) 
