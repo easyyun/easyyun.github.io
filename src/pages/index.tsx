@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            快速开始
           </Link>
         </div>
       </div>
@@ -30,11 +30,46 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}，${siteConfig.tagline}`}
+      description={`${siteConfig.tagline}`}>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <div className="container">
+          <h2>技术栈</h2>
+          <div className="row">
+            <div className="col">
+              <img src="img/tech/mysql.svg" />
+            </div>
+            <div className="col">
+              <img src="img/tech/ubuntu.svg" />
+            </div>
+            <div className="col">
+              <img src="img/tech/kubernetes.svg" />
+            </div>
+            <div className="col">
+              <img src="img/tech/istioio.svg" />
+            </div>
+            <div className="col">
+              <img src="img/tech/redis.svg" />
+            </div>
+            <div className="col">
+              <img src="img/tech/docker.svg" />
+            </div>
+            <div className="col">
+              <img src="img/tech/golang.svg" />
+            </div>
+            <div className="col">
+              <img src="img/tech/nginx.svg" />
+            </div>
+            <div className="col">
+              <img src="img/tech/vuejs.svg" />
+            </div>
+            <div className="col">
+              <img src="img/tech/electronjs.svg" />
+            </div>
+          </div>
+        </div>
       </main>
     </Layout>
   );

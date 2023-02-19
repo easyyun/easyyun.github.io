@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'EasyYun',
-  tagline: 'Enterprise-level pdf api and pdf apps',
+  tagline: '企业级PDF API & PDF云转换App',
   favicon: 'favicon.ico',
 
   // Set the production url of your site here
@@ -28,14 +28,13 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'zh-CN'],
+    defaultLocale: 'zh-CN',
+    locales: ['zh-CN', 'en'],
     localeConfigs: {
       en: {
         htmlLang: 'en',
       },
       // 如果你不需要覆盖默认值，你可以忽略这个语言（比如 zh-Hans）
-
     },
 
   },
@@ -82,64 +81,25 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Docs',
+            label: '文档',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '日志', position: 'left'},
+
           {
-            type: 'localeDropdown',
-            position: 'right',
-          },
-          {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/easyyun/easyyun.github.io/',
             label: 'GitHub',
             position: 'right',
           },
         ],
       },
       footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-              {
-                label: 'Api',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'Legal',
-            items: [
-              {
-                label: 'Privacy',
-                to: '/privacy/privacy.html',
-              },
-              {
-                label: 'Service',
-                href: '/privacy/service.html',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © 2021 - ${new Date().getFullYear()} Easyyun, Inc. Built with Docusaurus.`,
+        style: 'light',
+
+        copyright: `Copyright © 2021 - ${new Date().getFullYear()} Easyyun, Inc. 
+        <a href="" target="_blank">隐私</a>  | <a href="" target="_blank">服务</a> 
+        <br /><a href="http://beian.miit.gov.cn/" target="_blank"><small>浙ICP备19040696号-6</small></a> | 
+            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010802012279" target="_blank">
+            <img src="img/ba.png"/> <small>浙公网安备 33010802012279号</small></a>`,
       },
       prism: {
         theme: lightCodeTheme,
