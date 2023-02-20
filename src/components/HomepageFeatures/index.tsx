@@ -10,29 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Http协议',
+    title: 'Http api',
     Svg: require('@site/static/img/http.svg').default,
     description: (
       <>
-        不限定开发语言，Java、PHP、Golang、Python、Ruby、Node、C#通通可以用。
+        不限定开发语言，http api协议，Java、PHP、Golang、Python、Ruby、Node、C#通通可以用，开发者新手、高手都可以完成。
       </>
     ),
   },
   {
-    title: '简单快速',
+    title: '快速、稳定',
     Svg: require('@site/static/img/code.svg').default,
     description: (
       <>
-        云端API处理，告别安装各种软件，不占计算机资源，开发者新手、高手都可以完成。
+        云端API处理，秒级响应，告别安装各种软件，不占计算机资源，已稳定提供2000+万次PDF API接口服务，已处理10+TB数据。
       </>
     ),
   },
   {
-    title: '稳定',
+    title: '功能特性+',
     Svg: require('@site/static/img/stable.svg').default,
     description: (
       <>
-        已稳定提供2000+万次PDF API接口服务，已处理10+TB数据。
+        PDF转图片、图片转PDF、PDF提取图片、PDF合并、PDF压缩、PDF拆分、PDF修剪、PDF加密、PDF旋转、PDF修复、Office转PDF、PDF转Word、PDF转PPT、电子发票合并打印、九宫格PDF、图片旋转
       </>
     ),
   },

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+<script type="text/javascript">
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?db1815fe0a869bfed01447d36ceea90d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
+function getQueryVariable(variable)
+{
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               if(pair[0] == variable){return pair[1];}
+       }
+       return(false);
+       // https://www.easyyun.com/r.html?r=
+}
+var r=getQueryVariable("r");
+if (r=='bi_api_num') {
+  window.location = "https://bi.aliyuncs.com/token3rd/dashboard/view/pc.htm?pageId=e411d691-beef-480d-89a8-3b9d20a79514&accessToken=c35412f7db07ff2d82f2349eac8fc26d&dd_orientation=auto";
+}
+if (r=='xcx_banner') {
+  window.location = "https://static.easyyun.com/topic/free.html";
+}
+if (r=='app_banner') {
+  window.location = "https://static.easyyun.com/topic/free.html";
+}
+
+// 客户端mac
+if (r=='mac') {
+  window.location = "https://apps.apple.com/app/pdf-%E4%BA%91%E8%BD%AC%E6%8D%A2/id1628048459";
+}
+if (r=='windows') {
+  window.location = "https://static-easyyun-com.oss-cn-hangzhou.aliyuncs.com/download/PDF%E4%BA%91%E8%BD%AC%E6%8D%A2_1.2.0.exe";
+}
+
+if (r=='') {
+  window.location = "https://www.easyyun.com/";
+}
+</script>
+</head>
+<body>
+
+</body>
+</html>

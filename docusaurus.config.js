@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'EasyYun',
   tagline: '企业级PDF API & PDF云转换App',
-  favicon: 'favicon.ico',
+  favicon: '/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://easyyun.com',
@@ -48,15 +48,13 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -74,7 +72,7 @@ const config = {
         title: 'EasyYun',
         logo: {
           alt: 'EasyYun Logo',
-          src: 'static/logo/logo_300.svg',
+          src: '/static/logo/logo_300.svg',
         },
         items: [
           {
@@ -83,7 +81,7 @@ const config = {
             position: 'left',
             label: '文档',
           },
-          {to: '/blog', label: '日志', position: 'left'},
+          {to: '/docs/category/api', label: 'API', position: 'left'},
 
           {
             href: 'https://github.com/easyyun/easyyun.github.io/',
@@ -96,10 +94,10 @@ const config = {
         style: 'light',
 
         copyright: `Copyright © 2021 - ${new Date().getFullYear()} Easyyun, Inc. 
-        <a href="" target="_blank">隐私</a>  | <a href="" target="_blank">服务</a> 
+        <a href="/privacy/privacy.html" target="_blank">隐私</a>  | <a href="/privacy/service.html" target="_blank">服务</a> 
         <br /><a href="http://beian.miit.gov.cn/" target="_blank"><small>浙ICP备19040696号-6</small></a> | 
             <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010802012279" target="_blank">
-            <img src="img/ba.png"/> <small>浙公网安备 33010802012279号</small></a>`,
+            <img src="/img/ba.png"/> <small>浙公网安备 33010802012279号</small></a>`,
       },
       prism: {
         theme: lightCodeTheme,
