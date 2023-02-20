@@ -65,34 +65,37 @@ export default function Home(): JSX.Element {
             <h2 className="text--center">技术栈</h2>
             <div className="row features_src-components-HomepageFeatures-styles-module">
               <div className="col">
-                <img src="img/tech/mysql.svg" />
+                <img src="img/tech/mysql.svg" title="mysql" />
               </div>
               <div className="col">
-                <img src="img/tech/ubuntu.svg" />
+                <img src="img/tech/ubuntu.svg" title="ubuntu"  />
               </div>
               <div className="col">
-                <img src="img/tech/kubernetes.svg" />
+                <img src="img/tech/kubernetes.svg" title="kubernetes"  />
               </div>
               <div className="col">
-                <img src="img/tech/istioio.svg" />
+                <img src="img/tech/istioio.svg" title="istioio" />
               </div>
               <div className="col">
-                <img src="img/tech/redis.svg" />
+                <img src="img/tech/redis.svg" title="redis" />
               </div>
               <div className="col">
-                <img src="img/tech/docker.svg" />
+                <img src="img/tech/docker.svg" title="docker" />
               </div>
               <div className="col">
-                <img src="img/tech/golang.svg" />
+                <img src="img/tech/golang.svg" title="golang" />
               </div>
               <div className="col">
-                <img src="img/tech/nginx.svg" />
+                <img src="img/tech/nginx.svg" title="nginx" />
               </div>
               <div className="col">
-                <img src="img/tech/vuejs.svg" />
+                <img src="img/tech/reactjs.svg" title="reactjs" />
               </div>
               <div className="col">
-                <img src="img/tech/electronjs.svg" />
+                <img src="img/tech/vuejs.svg" title="vuejs" />
+              </div>              
+              <div className="col">
+                <img src="img/tech/electronjs.svg" title="electronjs" />
               </div>
             </div>
           </div>

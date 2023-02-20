@@ -16,6 +16,7 @@ sidebar_position: 19
 `request_url` 参考[基础 > request_url](/docs/api/base#request-url)
 
 **请求参数，POST请求**
+
 | 名称 | 类型 | 必须 | 描述 |
 | --- | --- | --- | --- |
 | method | String | 是 | pdf.pdfToGrid，固定值 |
@@ -32,6 +33,7 @@ sidebar_position: 19
 
 
 **响应参数，类型为JSON**
+
 | 名称 | 类型 | 示例值 | 描述 |
 | --- | --- | --- | --- |
 | request_id | String | xxx | 任务id |

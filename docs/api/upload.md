@@ -20,6 +20,7 @@ PDF、图片等文件地址统一为互联网可访问url。
 `request_url` 参考[基础 > request_url](/docs/api/base#request-url)
 
 **请求参数，POST请求**
+
 | 名称 | 类型 | 必须 | 描述 |
 | --- | --- | --- | --- |
 | method | String | 是 | upload，固定值 |
@@ -27,6 +28,7 @@ PDF、图片等文件地址统一为互联网可访问url。
 | file | String | 是 | 本地文件地址，以@开头|
 
 **响应参数，类型为JSON**
+
 | 名称 | 类型 | 示例值 | 描述 |
 | --- | --- | --- | --- |
 | code | String | 200 | 见[code说明](/docs/api/code) |
