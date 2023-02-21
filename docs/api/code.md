@@ -12,7 +12,7 @@ sidebar_position: 4
 	"request_id": "xxx",
 	"code": "200",
 	"data": {
-		"file_url": "http://static.easyyun.com/static/example/out/merge_one_page_two_pages.pdf"
+		"file_url": "https://static.easyyun.com/static/example/out/merge_one_page_two_pages.pdf"
 	},
 	"code_msg": "请求成功"
 }

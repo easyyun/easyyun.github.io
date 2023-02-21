@@ -23,7 +23,7 @@ PDF文件加密。源文件必须无密码才支持设置密码。
 | method | String | 是 | pdf.encrypt，固定值 |
 | token | String | 是 | 可自行创建或更新，参考[基础 > token](/docs/api/base#token)|
 | async | String | 否 | 任务方式，默认0，代表同步；1代表异步，异步需要设置回调地址，或者[主动查询结果](/docs/api/pdf.task-result) |
-| input | String | 是 | 输入文件，可访问互联网url，比如 http://www.easyyun.com/static/example/files/one_page.pdf |
+| input | String | 是 | 输入文件，可访问互联网url，比如 https://static.easyyun.com/static/example/files/one_page.pdf |
 | options | String | 是 | json格式，比如{"passwd": "123xxx"} |
 
 **options字段说明**
@@ -46,7 +46,7 @@ PDF文件加密。源文件必须无密码才支持设置密码。
 curl -X POST 'https://test-rest-api.easyyun.com/v1/router/rest' \
 -d 'method=pdf.encrypt' \
 -d 'token=395a25d6fa758bfb6c0d3da007a8b189' \
--d 'input=http://static.easyyun.com/static/example/files/one_page.pdf' \
+-d 'input=https://static.easyyun.com/static/example/files/one_page.pdf' \
 -d 'options={"passwd": "123xxx"}'
 ```
 
@@ -56,7 +56,7 @@ curl -X POST 'https://test-rest-api.easyyun.com/v1/router/rest' \
 	"request_id": "xxx",
 	"code": "200",
 	"data": {
-		"file_url": "http://static.easyyun.com/static/example/out/encrypt_one_page.pdf"
+		"file_url": "https://static.easyyun.com/static/example/out/encrypt_one_page.pdf"
 	},
 	"code_msg": "请求成功"
 }

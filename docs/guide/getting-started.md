@@ -11,7 +11,7 @@ sidebar_position: 1
 curl -X POST 'https://test-rest-api.easyyun.com/v1/router/rest' \
 -d 'method=pdf.merge' \
 -d 'token=395a25d6fa758bfb6c0d3da007a8b189' \
--d 'input={"file_url":["http://static.easyyun.com/static/example/files/one_page.pdf","http://static.easyyun.com/static/example/files/two_pages.pdf"]}'
+-d 'input={"file_url":["https://static.easyyun.com/static/example/files/one_page.pdf","https://static.easyyun.com/static/example/files/two_pages.pdf"]}'
 ```
 
 
@@ -21,7 +21,7 @@ curl -X POST 'https://test-rest-api.easyyun.com/v1/router/rest' \
 curl -X POST 'https://test-rest-api.easyyun.com/v1/router/rest' \
 -d 'method=pdf.compress' \
 -d 'token=395a25d6fa758bfb6c0d3da007a8b189' \
--d 'input=http://www.easyyun.com/static/example/files/big.pdf' \
+-d 'input=https://static.easyyun.com/static/example/files/big.pdf' \
 -d 'options={"quality": "low"}'
 ```
 

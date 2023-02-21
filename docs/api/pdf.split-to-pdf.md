@@ -22,7 +22,7 @@ sidebar_position: 10
 | method | String | 是 | pdf.splitToPdf，固定值 |
 | token | String | 是 | 可自行创建或更新，参考[基础 > token](/docs/api/base#token)|
 | async | String | 否 | 任务方式，默认0，代表同步；1代表异步，异步需要设置回调地址，或者[主动查询结果](/docs/api/pdf.task-result) |
-| input | String | 是 | 输入文件，可访问互联网url，比如 http://www.easyyun.com/static/example/files/four_pages.pdf |
+| input | String | 是 | 输入文件，可访问互联网url，比如 https://static.easyyun.com/static/example/files/four_pages.pdf |
 | options | String | 是 | json格式，比如{"span": "2","zip": "0"} |
 
 **options字段说明**
@@ -45,7 +45,7 @@ sidebar_position: 10
 curl -X POST 'https://test-rest-api.easyyun.com/v1/router/rest' \
 -d 'method=pdf.splitToPdf' \
 -d 'token=395a25d6fa758bfb6c0d3da007a8b189' \
--d 'input=http://static.easyyun.com/static/example/files/four_pages.pdf' \
+-d 'input=https://static.easyyun.com/static/example/files/four_pages.pdf' \
 -d 'options={"span": "2","zip":"1"}'
 ```
 
@@ -55,7 +55,7 @@ curl -X POST 'https://test-rest-api.easyyun.com/v1/router/rest' \
 	"request_id": "xxx",
 	"code": "200",
 	"data": {
-		"file_url": ["http://static.easyyun.com/static/example/out/four_pages_1-2.pdf","http://static.easyyun.com/static/example/out/four_pages_3-4.pdf"],
+		"file_url": ["https://static.easyyun.com/static/example/out/four_pages_1-2.pdf","https://static.easyyun.com/static/example/out/four_pages_3-4.pdf"],
 		"zip_url": "https://eyfile.oss-cn-hangzhou.aliyuncs.com/eaysyun/20220923/yuna6b877026687488597772f3142c960c5fourpages.zip"
 	},
 	"code_msg": "请求成功"

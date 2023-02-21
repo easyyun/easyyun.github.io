@@ -22,7 +22,7 @@ sidebar_position: 6
 | method | String | 是 | pdf.imageToPdf，固定值 |
 | token | String | 是 | 可自行创建或更新，参考[基础 > token](/docs/api/base#token)|
 | async | String | 否 | 任务方式，默认0，代表同步；1代表异步，异步需要设置回调地址，或者[主动查询结果](/docs/api/pdf.task-result) |
-| input | String | 是 | {"file_url":["http://static.easyyun.com/static/example/files/1.jpg","http://static.easyyun.com/static/example/files/2.png"]} ，json格式|
+| input | String | 是 | {"file_url":["https://static.easyyun.com/static/example/files/1.jpg","https://static.easyyun.com/static/example/files/2.png"]} ，json格式|
 
 **响应参数，类型为JSON**
 
@@ -38,7 +38,7 @@ sidebar_position: 6
 curl -X POST 'https://test-rest-api.easyyun.com/v1/router/rest' \
 -d 'method=pdf.imageToPdf' \
 -d 'token=395a25d6fa758bfb6c0d3da007a8b189' \
--d 'input={"file_url":["http://static.easyyun.com/static/example/files/1.jpg","http://static.easyyun.com/static/example/files/2.png"]}'
+-d 'input={"file_url":["https://static.easyyun.com/static/example/files/1.jpg","https://static.easyyun.com/static/example/files/2.png"]}'
 ```
 
 **响应示例**
@@ -47,7 +47,7 @@ curl -X POST 'https://test-rest-api.easyyun.com/v1/router/rest' \
 	"request_id": "xxx",
 	"code": "200",
 	"data": {
-		"file_url": "http://static.easyyun.com/static/example/out/imageToPdf_1.pdf"
+		"file_url": "https://static.easyyun.com/static/example/out/imageToPdf_1.pdf"
 	},
 	"code_msg": "请求成功"
 }
