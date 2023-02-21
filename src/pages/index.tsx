@@ -12,15 +12,23 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">企业级PDF API，基于K8S，坚如磬石
-          <br /> PDF云转换客户端，小程序、Mac和Windows全舞台，无广告，使用不限次数</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/guide/getting-started">
-            快速开始
-          </Link>
+        <div className="row">
+          <div className="col  col--3">
+            <img src="/static/xcx/gongzhonghao.jpg" title="PDF云转换公众号"/>
+            <p>扫一扫关注我们</p>
+          </div>
+          <div className="col  col--9 text--left">
+            <h1 className="hero__title">{siteConfig.title}</h1>
+            <p className="hero__subtitle">企业级PDF API，基于K8S，坚如磬石
+              <br /> PDF云转换客户端，小程序、Mac和Windows全舞台，无广告，使用不限次数</p>
+            <div className={styles.buttons}>
+              <Link
+                className="button button--secondary button--lg"
+                to="/docs/guide/getting-started">
+                快速开始
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -63,7 +71,9 @@ export default function Home(): JSX.Element {
         <section className="features_src-components-HomepageFeatures-styles-module">
           <div className="container ">
             <h2 className="text--center">技术栈</h2>
+            <p className="text--center">感谢如下开源技术</p>
             <div className="row features_src-components-HomepageFeatures-styles-module">
+
               <div className="col">
                 <img src="img/tech/mysql.svg" title="mysql" />
               </div>
