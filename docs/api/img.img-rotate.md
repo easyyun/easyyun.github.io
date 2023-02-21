@@ -44,7 +44,7 @@ sidebar_position: 20
 curl -X POST 'https://test-rest-api.easyyun.com/v1/router/rest' \
 -d 'method=img.imgRotate' \
 -d 'token=395a25d6fa758bfb6c0d3da007a8b189' \
--d 'input=http://www.easyyun.com/static/example/files/1.jpg' \
+-d 'input=http://static.easyyun.com/static/example/files/1.jpg' \
 -d 'options={"rotation": "90"}'
 ```
 

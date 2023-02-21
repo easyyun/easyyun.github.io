@@ -71,7 +71,6 @@ export default function Home(): JSX.Element {
         <section className="features_src-components-HomepageFeatures-styles-module">
           <div className="container ">
             <h2 className="text--center">技术栈</h2>
-            <p className="text--center">感谢如下开源技术</p>
             <div className="row features_src-components-HomepageFeatures-styles-module">
 
               <div className="col">
