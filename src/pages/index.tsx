@@ -69,7 +69,7 @@ export default function Home(): JSX.Element {
           </div>
         </section>
         <section>
-          <div className="container ">
+          <div className="container tech-container">
             <h2 className="text--center">技术栈</h2>
             <div className="row features_src-components-HomepageFeatures-styles-module">
 
