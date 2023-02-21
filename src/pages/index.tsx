@@ -44,7 +44,7 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-        <section className="section--odd" id="download">
+        <section>
           <div className="container text--center container-fluid">
             <h2 className="text--center">PDF云转换客户端下载</h2>
             <div className="row features_src-components-HomepageFeatures-styles-module">
@@ -68,7 +68,7 @@ export default function Home(): JSX.Element {
             </div>
           </div>
         </section>
-        <section className="features_src-components-HomepageFeatures-styles-module">
+        <section>
           <div className="container ">
             <h2 className="text--center">技术栈</h2>
             <div className="row features_src-components-HomepageFeatures-styles-module">

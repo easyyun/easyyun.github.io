@@ -2,17 +2,15 @@
 sidebar_position: 1
 ---
 
-# 项目简介
-
+# 介绍
 
 ### **介绍**
 
-提供在线PDF转换API，Github： <https://github.com/easyyun/easyyun.github.io>
+提供企业级PDF API和PDF云转换客户端，Github： <https://github.com/easyyun/easyyun.github.io>
 
-官网：<https://easyyun.github.io> 加速域名：<http://io.easyyun.com>
+官网：<http://www.easyyun.com> Github官网：<https://easyyun.github.io> 
 
 ### **主要功能**
-
 
 - [PDF转图片](/docs/api/pdf.split-to-image)
 - [图片转PDF](/docs/api/pdf.image-to-pdf)
@@ -32,17 +30,17 @@ sidebar_position: 1
 - [图片旋转](/docs/api/img.img-rotate)
 
 
-### 体验小程序
+### 体验PDF云转换小程序
 
 ![PDF云转换小程序](/static/xcx/xcx_m.jpg)
 
 
-### 客户端下载
+### PDF云转换客户端下载
 
 ![Demo](/static/client/mac_demo.jpg)
 
 
 
-**Mac版本:** [https://www.easyyun.com/r.html?r=mac](https://www.easyyun.com/r.html?r=mac)
+**Mac版本:** [https://static.easyyun.com/r.html?r=mac](https://static.easyyun.com/r.html?r=mac)
 
-**Windows版本:** [https://www.easyyun.com/r.html?r=windows](https://www.easyyun.com/r.html?r=windows)
+**Windows版本:** [https://static.easyyun.com/r.html?r=windows](https://static.easyyun.com/r.html?r=windows)

@@ -93,7 +93,7 @@ const config = {
       footer: {
         style: 'light',
 
-        copyright: `Copyright © 2021 - ${new Date().getFullYear()} Easyyun, Inc. 
+        copyright: `Copyright © 2021 - ${new Date().getFullYear()} <a href="https://www.easyyun.com/">Easyyun</a>, Inc. 
         <a href="/privacy/privacy.html" target="_blank" rel="noopener noreferrer">隐私</a>  | <a href="/privacy/service.html" target="_blank" rel="noopener noreferrer">服务</a> 
         <br /><a href="http://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer"><small>浙ICP备19040696号-6</small></a> | 
             <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010802012279" target="_blank" rel="noopener noreferrer">
