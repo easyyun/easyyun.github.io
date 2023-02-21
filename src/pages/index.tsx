@@ -13,11 +13,13 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <div className="row">
-          <div className="col  col--3">
+          <div className="col  col--1">
+          </div>
+          <div className="col  col--2">
             <img src="/static/xcx/gongzhonghao.jpg" title="PDF云转换公众号"/>
             <p>扫一扫关注我们</p>
           </div>
-          <div className="col  col--9 text--left">
+          <div className="col  col--8 text--left">
             <h1 className="hero__title">{siteConfig.title}</h1>
             <p className="hero__subtitle">企业级PDF API，基于K8S，坚如磬石
               <br /> PDF云转换客户端，小程序、Mac和Windows全舞台，无广告，使用不限次数</p>
@@ -28,6 +30,8 @@ function HomepageHeader() {
                 快速开始
               </Link>
             </div>
+          </div>
+          <div className="col  col--1">
           </div>
         </div>
       </div>
