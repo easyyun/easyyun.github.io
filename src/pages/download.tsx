@@ -7,7 +7,7 @@ export default function Download() {
   return (
     <Layout title="PDF云转换客户端下载" description="PDF云转换客户端下载，支持Mac、Windows、微信小程序">
       <main className="heroBanner_src-pages-index-module">
-        <section className="section--odd" id="download">
+        <section className="section--odd" className="download-section">
           <div className="container text--center container-fluid">
             <h2 className="text--center">PDF云转换客户端下载</h2>
             <p>PDF云转换客户端，小程序、Mac和Windows全舞台，无广告，使用不限次数</p>

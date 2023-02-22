@@ -8,7 +8,7 @@ sidebar_position: 1
 
 EasyYun提供企业级PDF API转换服务和PDF云转换客户端
 
-官网：<http://www.easyyun.com> Github官网：<https://easyyun.github.io> 
+官网：<https://www.easyyun.com> Github官网：<https://easyyun.github.io> 
 
 ### **起源**	
 
@@ -41,12 +41,4 @@ EasyYun提供企业级PDF API转换服务和PDF云转换客户端
 ![PDF云转换小程序](/static/xcx/xcx_m.jpg)
 
 
-### PDF云转换客户端下载
 
-![Demo](/static/client/mac_demo.jpg)
-
-
-
-**Mac版本:** [https://static.easyyun.com/r.html?r=mac](https://static.easyyun.com/r.html?r=mac)
-
-**Windows版本:** [https://static.easyyun.com/r.html?r=windows](https://static.easyyun.com/r.html?r=windows)

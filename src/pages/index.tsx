@@ -57,13 +57,13 @@ export default function Home(): JSX.Element {
                 <h3>PDF云转换小程序</h3>
               </div>
               <div className="col col--4">
-                <a href="https://www.easyyun.com/r.html?r=mac" target="_blank" title="PDF云转换 Mac版本下载">
+                <a href="https://static.easyyun.com/r.html?r=mac" target="_blank" title="PDF云转换 Mac版本下载">
                 <img src="img/mac.svg" />
                 <h3  className="appDownText">PDF云转换 Mac版本 <img src="img/download.svg"  width="30" /></h3>
                 </a>
               </div>
               <div className="col col--4">
-                <a href="https://www.easyyun.com/r.html?r=windows" target="_blank" title="PDF云转换 Windows版本下载">
+                <a href="https://static.easyyun.com/r.html?r=windows" target="_blank" title="PDF云转换 Windows版本下载">
                 <img src="img/windows.svg" />
                 <h3  className="appDownText">PDF云转换 Windows版本 <img src="img/download.svg" width="30" /></h3>
                 </a>
