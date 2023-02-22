@@ -21,3 +21,4 @@ yarn-error.log*
 
 *.sh
 ossutil_output
+codeExamples

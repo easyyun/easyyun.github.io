@@ -1,0 +1,137 @@
+---
+sidebar_position: 1
+---
+
+# 快速开始
+
+```mdx-code-block
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+```
+
+## PDF文件合并
+
+```mdx-code-block
+<Tabs>
+<TabItem value="CURL">
+```
+
+```bash
+curl -X POST 'https://test-rest-api.easyyun.com/v1/router/rest' \
+-d 'method=pdf.merge' \
+-d 'token=395a25d6fa758bfb6c0d3da007a8b189' \
+-d 'input={"file_url":["https://static.easyyun.com/static/example/files/one_page.pdf","https://static.easyyun.com/static/example/files/two_pages.pdf"]}'
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="PHP">
+```
+
+```php
+<?php
+// PDF文件合并
+$url = "https://test-rest-api.easyyun.com/v1/router/rest";
+$method = "pdf.merge";
+//测试token，无法更新，使用参考 https://www.easyyun.com/docs/api/base#token
+$token = "395a25d6fa758bfb6c0d3da007a8b189";
+$input = json_encode([
+    'file_url' =>[
+        'https://static.easyyun.com/static/example/files/one_page.pdf',
+        'https://static.easyyun.com/static/example/files/two_pages.pdf'
+    ]
+]);
+$body = [
+    'method' => $method,
+    'token' => $token,
+    'input' => $input,
+];
+$body_string = http_build_query($body, '', '&');
+
+$curl = curl_init();
+curl_setopt($curl, CURLOPT_CUSTOMREQUEST, "POST");
+curl_setopt($curl, CURLOPT_URL, $url);
+curl_setopt($curl, CURLOPT_FAILONERROR, false);
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
+curl_setopt($curl, CURLOPT_POSTFIELDS, $body_string);
+$response = curl_exec($curl);
+echo $response;
+?>
+```
+
+
+
+```mdx-code-block
+</TabItem>
+</Tabs>
+```
+
+
+
+## PDF转图片
+
+```mdx-code-block
+<Tabs>
+<TabItem value="CURL">
+```
+
+```bash
+curl -X POST 'https://test-rest-api.easyyun.com/v1/router/rest' \
+-d 'method=pdf.splitToImage' \
+-d 'token=395a25d6fa758bfb6c0d3da007a8b189' \
+-d 'async=0' \
+-d 'input=https://static.easyyun.com/static/example/files/four_pages.pdf' \
+-d 'options={"quality": "middle", "page": "1-N"}'
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="PHP">
+```
+
+```php
+<?php
+// PDF转图片
+$url = "https://test-rest-api.easyyun.com/v1/router/rest";
+$method = "pdf.splitToImage";
+//测试token，无法更新，使用参考 https://www.easyyun.com/docs/api/base#token
+$token = "395a25d6fa758bfb6c0d3da007a8b189";
+$input = 'https://static.easyyun.com/static/example/files/four_pages.pdf';
+$options = json_encode([
+    'quality' => 'middle',
+    'page' => '1-N', // （多张图片）
+]);
+$body = [
+    'method' => $method,
+    'token' => $token,
+    'input' => $input,
+    'options' => $options
+];
+$body_string = http_build_query($body, '', '&');
+
+$curl = curl_init();
+curl_setopt($curl, CURLOPT_CUSTOMREQUEST, "POST");
+curl_setopt($curl, CURLOPT_URL, $url);
+curl_setopt($curl, CURLOPT_FAILONERROR, false);
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
+curl_setopt($curl, CURLOPT_POSTFIELDS, $body_string);
+$response = curl_exec($curl);
+echo $response;
+?>
+```
+
+
+
+```mdx-code-block
+</TabItem>
+</Tabs>
+```
+
+更多：[API参考](/docs/api/base)
+
+
+
