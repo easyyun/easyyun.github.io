@@ -53,19 +53,19 @@ export default function Home(): JSX.Element {
             <h2 className="text--center">PDF云转换客户端下载</h2>
             <div className="row features_src-components-HomepageFeatures-styles-module">
               <div className="col col--4">
-                <img src="img/xcx-m.svg" width="200"/>
+                <img src="/img/xcx-m.svg" width="200"/>
                 <h3>PDF云转换小程序</h3>
               </div>
               <div className="col col--4">
                 <a href="https://static.easyyun.com/r.html?r=mac" target="_blank" title="PDF云转换 Mac版本下载">
-                <img src="img/mac.svg" />
-                <h3  className="appDownText">PDF云转换 Mac版本 <img src="img/download.svg"  width="30" /></h3>
+                <img src="/img/mac.svg" />
+                <h3  className="appDownText">PDF云转换 Mac版本 <img src="/img/download.svg"  width="30" /></h3>
                 </a>
               </div>
               <div className="col col--4">
                 <a href="https://static.easyyun.com/r.html?r=windows" target="_blank" title="PDF云转换 Windows版本下载">
-                <img src="img/windows.svg" />
-                <h3  className="appDownText">PDF云转换 Windows版本 <img src="img/download.svg" width="30" /></h3>
+                <img src="/img/windows.svg" />
+                <h3  className="appDownText">PDF云转换 Windows版本 <img src="/img/download.svg" width="30" /></h3>
                 </a>
               </div>
 
@@ -78,37 +78,37 @@ export default function Home(): JSX.Element {
             <div className="row features_src-components-HomepageFeatures-styles-module">
 
               <div className="col">
-                <img src="img/tech/mysql.svg" title="mysql" />
+                <img src="/img/tech/mysql.svg" title="mysql" />
               </div>
               <div className="col">
-                <img src="img/tech/ubuntu.svg" title="ubuntu"  />
+                <img src="/img/tech/ubuntu.svg" title="ubuntu"  />
               </div>
               <div className="col">
-                <img src="img/tech/kubernetes.svg" title="kubernetes"  />
+                <img src="/img/tech/kubernetes.svg" title="kubernetes"  />
               </div>
               <div className="col">
-                <img src="img/tech/istioio.svg" title="istioio" />
+                <img src="/img/tech/istioio.svg" title="istioio" />
               </div>
               <div className="col">
-                <img src="img/tech/redis.svg" title="redis" />
+                <img src="/img/tech/redis.svg" title="redis" />
               </div>
               <div className="col">
-                <img src="img/tech/docker.svg" title="docker" />
+                <img src="/img/tech/docker.svg" title="docker" />
               </div>
               <div className="col">
-                <img src="img/tech/golang.svg" title="golang" />
+                <img src="/img/tech/golang.svg" title="golang" />
               </div>
               <div className="col">
-                <img src="img/tech/nginx.svg" title="nginx" />
+                <img src="/img/tech/nginx.svg" title="nginx" />
               </div>
               <div className="col">
-                <img src="img/tech/reactjs.svg" title="reactjs" />
+                <img src="/img/tech/reactjs.svg" title="reactjs" />
               </div>
               <div className="col">
-                <img src="img/tech/vuejs.svg" title="vuejs" />
+                <img src="/img/tech/vuejs.svg" title="vuejs" />
               </div>              
               <div className="col">
-                <img src="img/tech/electronjs.svg" title="electronjs" />
+                <img src="/img/tech/electronjs.svg" title="electronjs" />
               </div>
             </div>
           </div>

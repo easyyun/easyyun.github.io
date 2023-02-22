@@ -14,19 +14,19 @@ export default function Download() {
             <div className="row">
               <div className="col col--1"></div>
               <div className="col  col--5">
-                <img src="img/app.gif" title="App" />
+                <img src="/img/app.gif" title="App" />
               </div>
               <div className="col  col--4">
                 <div className="down-list">
                   <a href="https://static.easyyun.com/r.html?r=mac" target="_blank" title="PDF云转换 Mac版本下载">
-                    <img src="img/mac.svg" width="60" />
-                    <h3  className="appDownText">PDF云转换 Mac版本 <img src="img/download.svg"  width="30" /></h3>
+                    <img src="/img/mac.svg" width="60" />
+                    <h3  className="appDownText">PDF云转换 Mac版本 <img src="/img/download.svg"  width="30" /></h3>
                   </a>
                 </div>
                 <div className="down-list">
                   <a href="https://static.easyyun.com/r.html?r=windows" target="_blank" title="PDF云转换 Windows版本下载">
-                    <img src="img/windows.svg" width="60" />
-                    <h3  className="appDownText">PDF云转换 Windows版本 <img src="img/download.svg" width="30" /></h3>
+                    <img src="/img/windows.svg" width="60" />
+                    <h3  className="appDownText">PDF云转换 Windows版本 <img src="/img/download.svg" width="30" /></h3>
                   </a>  
                 </div>
               </div>
