@@ -82,7 +82,11 @@ const config = {
             label: '文档',
           },
           {to: '/docs/category/api', label: 'API', position: 'left'},
-
+          {
+            href: '/download',
+            label: '客户端下载',
+            position: 'right',
+          },
           {
             href: 'https://github.com/easyyun/easyyun.github.io/',
             label: 'GitHub',
