@@ -61,7 +61,32 @@ echo $response;
 ?>
 ```
 
+```mdx-code-block
+</TabItem>
+<TabItem value="Node">
+```
 
+```js
+// PDF文件合并
+var request = require("request");
+var url = "https://test-rest-api.easyyun.com/v1/router/rest";
+var method = "pdf.merge";
+//测试token，无法更新，使用参考 https://www.easyyun.com/docs/api/base#token
+var token = "395a25d6fa758bfb6c0d3da007a8b189";
+var input = '{"file_url":["https://static.easyyun.com/static/example/files/one_page.pdf","https://static.easyyun.com/static/example/files/two_pages.pdf"]}';
+var body = "method=" + method + "&token=" + token + "&input=" + input;
+request({
+  url: url,
+  method: "POST",
+  headers: {
+    "content-type": "application/x-www-form-urlencoded",
+  },
+  body: body
+}, function(error, response, body) {
+  console.log(body);
+});
+
+```
 
 ```mdx-code-block
 </TabItem>
@@ -124,7 +149,33 @@ echo $response;
 ?>
 ```
 
+```mdx-code-block
+</TabItem>
+<TabItem value="Node">
+```
 
+```js
+// PDF转图片
+var request = require("request");
+var url = "https://test-rest-api.easyyun.com/v1/router/rest";
+var method = "pdf.splitToImage";
+//测试token，无法更新，使用参考 https://www.easyyun.com/docs/api/base#token
+var token = "395a25d6fa758bfb6c0d3da007a8b189";
+var input = "https://static.easyyun.com/static/example/files/four_pages.pdf";
+var options = JSON.stringify({quality: 'middle',page: '1-N'});
+var body = "method=" + method + "&token=" + token + "&input=" + input + "&options=" + options;
+request({
+  url: url,
+  method: "POST",
+  headers: {
+    "content-type": "application/x-www-form-urlencoded",
+  },
+  body: body
+}, function(error, response, body) {
+  console.log(body);
+});
+
+```
 
 ```mdx-code-block
 </TabItem>
