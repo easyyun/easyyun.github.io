@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/http.svg').default,
     description: (
       <>
-        不限定开发语言，http api协议，Java、PHP、Golang、Python、Ruby、Node、C#通通可以用，开发者新手、高手都可以完成。
+        不限定开发语言，http api协议，Java、PHP、Golang、Python、Ruby、Node、C#、C++、Rust、C通通可以用，开发者新手、高手都可以完成。
       </>
     ),
   },
