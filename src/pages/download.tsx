@@ -10,7 +10,7 @@ export default function Download() {
         <section className="section--odd" className="download-section">
           <div className="container text--center container-fluid">
             <h2 className="text--center">PDF云转换客户端下载</h2>
-            <p>PDF云转换客户端，小程序、Mac和Windows全舞台，无广告，使用不限次数</p>
+            <p>PDF云转换客户端，小程序、Mac和Windows全舞台，使用不限次数 <a href="https://static.easyyun.com/topic/app_help.html" target="_blank">使用帮助》</a></p>
             <div className="row">
               <div className="col col--1"></div>
               <div className="col  col--5">

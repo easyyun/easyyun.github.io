@@ -1,5 +1,6 @@
 ---
 sidebar_position: 14
+description: PDF修复API， 损坏的PDF，或者PDF格式校验不对，将文件重新修复
 ---
 
 # PDF修复

@@ -21,8 +21,8 @@ function HomepageHeader() {
           </div>
           <div className="col  col--8 text--left">
             <h1 className="hero__title">{siteConfig.title}</h1>
-            <p className="hero__subtitle">企业级PDF API，基于K8S，坚如磬石
-              <br /> PDF云转换客户端，小程序、Mac和Windows全舞台，无广告，使用不限次数</p>
+            <p className="hero__subtitle">企业级PDF API，基于K8S，坚如磬石</p>
+            <p className="hero__subtitle">PDF云转换客户端，小程序、Mac和Windows全舞台，使用不限次数</p>
             <div className={styles.buttons}>
               <Link
                 className="button button--secondary button--lg"

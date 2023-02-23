@@ -1,5 +1,6 @@
 ---
 sidebar_position: 9
+description: PDF压缩API， 将1个PDF文件压缩成一定比例，支持各种后端开发语言
 ---
 
 # PDF压缩

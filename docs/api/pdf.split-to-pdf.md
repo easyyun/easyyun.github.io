@@ -1,5 +1,6 @@
 ---
 sidebar_position: 10
+description: PDF拆分成PDF API，将1个PDF文件按照每隔多少页进行拆分，默认按照每1页拆分。比如1个PDF有10页，将产生10个PDF，可指定options.span 来设置间隔页数
 ---
 
 # PDF拆分成PDF

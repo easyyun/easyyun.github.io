@@ -1,5 +1,6 @@
 ---
 sidebar_position: 20
+description: 图片旋转API接口，将1张图片旋转，度数值可选90、180、270度
 ---
 
 # 图片旋转

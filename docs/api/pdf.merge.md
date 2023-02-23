@@ -1,5 +1,6 @@
 ---
 sidebar_position: 8
+description: PDF合并API， 将多个PDF合并成1个PDF
 ---
 
 # PDF合并

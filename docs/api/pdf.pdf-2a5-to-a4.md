@@ -1,5 +1,6 @@
 ---
 sidebar_position: 19
+description: 发票合并打印API，将2个电子发票（A5）PDF合并成到1个A4页面，方便打印
 ---
 
 # 发票合并打印

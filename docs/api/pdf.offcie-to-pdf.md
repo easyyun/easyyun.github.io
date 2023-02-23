@@ -1,5 +1,6 @@
 ---
 sidebar_position: 16
+description: Office转PDF API， 支持word(docx, doc)、excel(xlsx, xls)、ppt(pptx)格式
 ---
 
 # Office转PDF

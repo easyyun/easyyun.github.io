@@ -1,5 +1,6 @@
 ---
 sidebar_position: 11
+description: PDF提取修剪 API，1个PDF文件提取其中的页面，重新组合成新的1个PDF
 ---
 
 # PDF提取修剪

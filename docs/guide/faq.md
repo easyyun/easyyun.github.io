@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+description: 如何申请app key及注意事项
 ---
 
 # FAQ

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 18
+description: PDF转PPT API，将pdf转换为支持PPT（pptx)格式
 ---
 
 # PDF转PPT

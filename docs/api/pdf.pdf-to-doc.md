@@ -1,5 +1,6 @@
 ---
 sidebar_position: 17
+description: PDF转Word API，将pdf转换为支持Word（doc）格式
 ---
 
 # PDF转Word

@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # 快速开始
 
+查看CURL、PHP、Node、Golang代码示例，代码可直接运行成功。
+
 ```mdx-code-block
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -33,10 +35,10 @@ curl -X POST 'https://test-rest-api.easyyun.com/v1/router/rest' \
 ```php
 <?php
 // PDF文件合并
-$url = "https://test-rest-api.easyyun.com/v1/router/rest";
+$url = 'https://test-rest-api.easyyun.com/v1/router/rest';
 $method = "pdf.merge";
 //测试token，无法更新，使用参考 https://www.easyyun.com/docs/api/base#token
-$token = "395a25d6fa758bfb6c0d3da007a8b189";
+$token = '395a25d6fa758bfb6c0d3da007a8b189';
 $input = json_encode([
     'file_url' =>[
         'https://static.easyyun.com/static/example/files/one_page.pdf',
@@ -92,6 +94,44 @@ request({
 
 ```mdx-code-block
 </TabItem>
+<TabItem value="Golang">
+```
+
+```go
+package main
+
+import (
+	"fmt"
+	"io/ioutil"
+	"net/http"
+	"strings"
+)
+
+// PDF文件合并
+func main() {
+
+	url := "https://test-rest-api.easyyun.com/v1/router/rest"
+	method := "pdf.merge"
+	// token，测试token，无法更新，使用参考 https://www.easyyun.com/docs/api/base#token
+	token := "395a25d6fa758bfb6c0d3da007a8b189"
+	// input 远程文件地址
+	input := "{\"file_url\":[\"https://static.easyyun.com/static/example/files/one_page.pdf\",\"https://static.easyyun.com/static/example/files/two_pages.pdf\"]}"
+	payload := strings.NewReader("method=" + method + "&token=" + token + "&input=" + input)
+
+	req, _ := http.NewRequest("POST", url, payload)
+	req.Header.Add("content-type", "application/x-www-form-urlencoded")
+	res, _ := http.DefaultClient.Do(req)
+	defer res.Body.Close()
+	body, _ := ioutil.ReadAll(res.Body)
+
+	fmt.Println(string(body))
+	
+}
+
+```
+
+```mdx-code-block
+</TabItem>
 </Tabs>
 ```
 
@@ -121,11 +161,12 @@ curl -X POST 'https://test-rest-api.easyyun.com/v1/router/rest' \
 ```php
 <?php
 // PDF转图片
-$url = "https://test-rest-api.easyyun.com/v1/router/rest";
-$method = "pdf.splitToImage";
+$url = 'https://test-rest-api.easyyun.com/v1/router/rest';
+$method = 'pdf.splitToImage';
 //测试token，无法更新，使用参考 https://www.easyyun.com/docs/api/base#token
-$token = "395a25d6fa758bfb6c0d3da007a8b189";
+$token = '395a25d6fa758bfb6c0d3da007a8b189';
 $input = 'https://static.easyyun.com/static/example/files/four_pages.pdf';
+// $options: quality图片质量为中，1-N为多页
 $options = json_encode([
     'quality' => 'middle',
     'page' => '1-N', // （多张图片）
@@ -164,6 +205,7 @@ var method = "pdf.splitToImage";
 //测试token，无法更新，使用参考 https://www.easyyun.com/docs/api/base#token
 var token = "395a25d6fa758bfb6c0d3da007a8b189";
 var input = "https://static.easyyun.com/static/example/files/four_pages.pdf";
+// options: quality图片质量为中，1-N为多页
 var options = JSON.stringify({quality: 'middle',page: '1-N'});
 var body = "method=" + method + "&token=" + token + "&input=" + input + "&options=" + options;
 request({
@@ -181,10 +223,52 @@ request({
 
 ```mdx-code-block
 </TabItem>
+<TabItem value="Golang">
+```
+
+```go
+package main
+
+import (
+	"fmt"
+	"io/ioutil"
+	"net/http"
+	"strings"
+)
+
+// PDF转图片
+func main() {
+
+	url := "https://test-rest-api.easyyun.com/v1/router/rest"
+	method := "pdf.splitToImage"
+	// token，测试token，无法更新，使用参考 https://www.easyyun.com/docs/api/base#token
+	token := "395a25d6fa758bfb6c0d3da007a8b189"
+	// input 远程文件地址
+	input := "https://static.easyyun.com/static/example/files/four_pages.pdf"
+	// options: quality图片质量为中，1-N为多页
+	options := "{\"quality\": \"middle\", \"page\": \"1-N\"}"
+	payload := strings.NewReader("method=" + method + "&token=" + token + "&input=" + input + "&options=" + options)
+
+	req, _ := http.NewRequest("POST", url, payload)
+	req.Header.Add("content-type", "application/x-www-form-urlencoded")
+	res, _ := http.DefaultClient.Do(req)
+	defer res.Body.Close()
+	body, _ := ioutil.ReadAll(res.Body)
+
+	fmt.Println(string(body))
+
+}
+
+```
+
+```mdx-code-block
+</TabItem>
 </Tabs>
 ```
 
-更多：[API参考](/docs/api/base)
+## 继续探索
+
+完成了体验后，更多API：[参考](/docs/api/base)
 
 
 

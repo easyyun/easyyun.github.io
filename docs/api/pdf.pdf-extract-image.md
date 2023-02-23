@@ -1,5 +1,6 @@
 ---
 sidebar_position: 7
+description: PDF提取图片API，将1个PDF文件的所有图片提取出来
 ---
 
 # PDF提取图片
