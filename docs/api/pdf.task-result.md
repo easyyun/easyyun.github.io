@@ -54,3 +54,9 @@ curl -X POST 'https://test-rest-api.easyyun.com/v1/router/rest' \
 	"request_id": "xxx"
 }
 ```
+
+:::tip
+
+如果你没有设置[存储配置项](/docs/api/base#storage-存储)，原文件1天后自动过期，请及时下载转换完的文件。
+
+::: 
