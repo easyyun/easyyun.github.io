@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-description: 如何申请app_key、系统配置存储和回调地址
+description: 开发流程对接，app_key、配置存储和回调地址等参数配置说明
 ---
 
 # 基础

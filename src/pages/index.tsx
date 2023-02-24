@@ -49,7 +49,8 @@ export default function Home(): JSX.Element {
       <main>
         <HomepageFeatures />
         <section>
-          <div className="container text--center container-fluid">
+        <div className={clsx(styles.section, styles.sectionAlt)}>
+          <div className="container text--center">
             <h2 className="text--center">PDF云转换客户端下载</h2>
             <div className="row features_src-components-HomepageFeatures-styles-module">
               <div className="col col--4">
@@ -71,8 +72,10 @@ export default function Home(): JSX.Element {
 
             </div>
           </div>
+        </div>
         </section>
         <section>
+        <div className={clsx(styles.section)}>
           <div className="container tech-container">
             <h2 className="text--center">技术栈</h2>
             <div className="row features_src-components-HomepageFeatures-styles-module">
@@ -112,6 +115,7 @@ export default function Home(): JSX.Element {
               </div>
             </div>
           </div>
+        </div>
         </section>
       </main>
     </Layout>
