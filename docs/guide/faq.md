@@ -46,7 +46,9 @@ PS:（Word、PPT、Excel）类相关转换未开放，建议使用其他厂商�
 
 ## 是否收费
 
-免费，欢迎捐赠。
+免费，欢迎捐赠打赏。
+
+<img src="https://static.easyyun.com/static/app/alipay.jpg" width="220" title="捐赠打赏"/>
 
 稳定性如何保证？没有保证，天下没有免费的午餐。
 
