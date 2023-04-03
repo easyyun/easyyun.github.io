@@ -115,6 +115,9 @@ const config = {
         additionalLanguages: ['php','go','java'],
       },
     }),
+  scripts: [
+    {src: 'https://hm.baidu.com/hm.js?db1815fe0a869bfed01447d36ceea90d',  async: true}
+  ],
 };
 
 module.exports = config;
