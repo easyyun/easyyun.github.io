@@ -102,7 +102,7 @@ const config = {
       footer: {
         style: 'light',
 
-        copyright: `链接： <a href="https://www.pc6.com/">PC6软件下载</a>  <a href="https://xiazai.zol.com.cn/">ZOL软件下载</a> <br/>
+        copyright: `链接： <a href="https://www.pc6.com/">PC6软件下载</a> | <a href="https://xiazai.zol.com.cn/">ZOL软件下载</a> | <a href="http://www.ddooo.com">多多软件站</a> <br/>
         Copyright © 2021 - ${new Date().getFullYear()} <a href="https://www.easyyun.com/">EasyYun</a>, Inc. 
         <a href="/privacy/privacy.html" target="_blank" rel="noopener noreferrer">隐私</a>  | <a href="/privacy/service.html" target="_blank" rel="noopener noreferrer">服务</a> 
         <br /><a href="http://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer"><small>浙ICP备19040696号-6</small></a> | 
